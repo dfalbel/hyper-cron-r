@@ -28,5 +28,12 @@ Don't forget to switch to your env variables values.
 
 ```
 hyper cron rm test-cron-job1
-hyperm rmi dfalbel/hyper-cron-r
+hyper rmi dfalbel/hyper-cron-r
+```
+
+### Show all jobs and occurencies
+
+```
+hyper cron ls
+hyper cron history test-cron-job1
 ```
